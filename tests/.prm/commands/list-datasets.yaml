@@ -1,0 +1,8 @@
+type: SQL
+spec:
+    components:
+        - type: CONST
+          value: 'SELECT id, name FROM'
+        - type: VAR
+          value: '[[db/prefix]]dataset'
+          vartype: VAL
